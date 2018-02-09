@@ -13,10 +13,14 @@ public class MainApp {
 		FlowerOne fl;  //обявили ссылку     fl - переменная ссылочного типа
 		fl = new FlowerOne("Rose", "Yellow"); // присвоили объекту ссылку
 		
-		gardener.informAbouFlowerState(fl);
+		//gardener.informAbouFlowerState(fl);
 		
 		
 		fl.bloom(5);
+		//gardener.informAbouFlowerState(fl);
+		fl.litlefade();
+		gardener.informAbouFlowerState(fl);
+		fl.totalfade();
 		gardener.informAbouFlowerState(fl);
 		
 		

@@ -29,12 +29,15 @@ public class FlowerOne {
 	}
 
 	public void litlefade() {
+		this.color = "Brown";
 		for (int i = 0; i < this.petal.length; i += 3) {
 			this.petal[i] = null;
+			System.out.println("");
 		}
 	}
 
 	public void totalfade() {
+		this.color = "Black";
 		for (int i = 0; i < this.petal.length; i++) {
 			this.petal[i] = null;
 			if (this.petal[i] != null) {
